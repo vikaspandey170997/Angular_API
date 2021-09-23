@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+<span>The Red Planet Rovers</span>
+</mat-toolbar>
+
+<nav>
+  <a>
+   <button mat-button color="primary" [routerLink] ="'/'">
+     Image of the Day
+   </button> 
+  </a>
+  <a>
+    <button mat-button color="primary" [routerLink] ="'/image-gallery'">
+        Image Gallery
+    </button> 
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
